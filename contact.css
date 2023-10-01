@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(0,0,107);
+    color:white;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    flex:1;
+    width:550px;
+    min-width: 200px;
+    padding:20px;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+   
+}
+.contact_form > form >input{
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    height:auto;
+    width:60%;
+    border:1px solid whitesmoke;
+    border-radius: 15px;
+}
+.submit_button{
+  text-align: center;
+  padding: 5px;
+   width:20%;
+   height:45px;
+    border-radius: 15px;
+    color:white;
+    margin-top:15px;
+    margin-left:25px;
+    background-color: rgb(0, 110, 120);
+    cursor:pointer;
+}
+.container_info{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+}
+.contact_info{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    padding:20px;
+    align-self: center;
+    justify-self: center;
+}
+.contact_info > a>img{
+    height: 40px;
+    width:50px;
+    padding: 15px;
+    
+}
+
+
+
+.head{
+margin:150px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:90px  ;
+    background-color: rgb(1,1,30);
+
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+
+}
+nav ul li a{
+    text-decoration: None;
+    color:white;
+}
+nav ul li a:hover{
+    text-decoration: None;
+    color:rgb(143, 143, 216);
+
+}
+nav ul li{
+    list-style: none;
+    margin : 0 23px;
+}
